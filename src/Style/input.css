@@ -1,0 +1,28 @@
+.custom-input-tag{
+    /* border: 2px solid red; */
+    /* background-color: rgba(222, 222, 222, 0.334); */
+    /* width: 100%; */
+    padding: 0.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.custom-input-tag .label{
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+.custom-input-tag input{
+    /* width: 100%; */
+    border: 2px solid rgba(128, 128, 128, 0.427);
+    outline: none;
+    font-size: 1.2rem;
+    padding: 5px;
+    border-radius: 5px;
+}
+.custom-input-tag input:focus{
+    border: 2px solid rgba(128, 128, 128, 0.633);
+}
+.custom-input-tag input::placeholder{
+    font-size: 16px;
+}
